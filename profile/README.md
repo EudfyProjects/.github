@@ -67,11 +67,26 @@ This service uses **OAuth2** for authentication and authorization.
     - **User:** Can view podcasts, get by title or genre, play podcast episode
 
 > _Note: These are not "real" users/admin. They are placeholders for production and used under development._
->
-| Role                |     Username      | Password |
-|---------------------|:-----------------:|:--------:|
-| edufy_realm_admin   | edufy_realm_admin |  admin   |
-| microservice_access |                   |    |
+
+| Role                |     Username      | Password | Service access |
+|---------------------|:-----------------:|:--------:|:------------------------------:|
+| edufy_realm_admin   | edufy_realm_admin |  admin   | all services |
+| microservice_access |                   |    | between services |
+| user_admin   | user_admin |  admin   | user |
+| creator_admin   | creator_admin |  admin   | creator |
+| genre_admin   | genre_admin |  admin   | genre |
+| thumb_admin   | thumb_admin |  admin   | thumb |
+| utility_admin   | utility_admin |  admin   | utility |
+| pod_admin   | pod_admin |  admin   | pod |
+| music_admin   | music_admin |  admin   | music |
+| video_admin   | video_admin |  admin   | video |
+| pod_user   | pod_user |  pod   | pod |
+| music_user   | music_user |  music   | music |
+| video_user   | video_user |  video   | video |
+| user   | user |  user   | can reach media services and user as a user |
+
+
+
 
 > Note: Unauthenticated requests will receive a `401 Unauthorized` response.
 
