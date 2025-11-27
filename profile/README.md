@@ -1,4 +1,3 @@
-# .github
 # Edufy Projects
 Multiple projects that handel interactions with Media
 
