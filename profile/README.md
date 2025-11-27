@@ -54,7 +54,7 @@ This service uses **OAuth2** for authentication and authorization.
 ---
 
 ## 🐳 Docker
-- Use `docker-compose.yml` to build and run the project, is in [Edufy-infra](https://github.com/EudfyProjects/Edufy-infra)
+- Use `docker-compose.yml` to build and run the project, how and files are in [Edufy-infra](https://github.com/EudfyProjects/Edufy-infra)
 - Docker network: `edufy-network`
 
 ---
@@ -72,4 +72,5 @@ This service uses **OAuth2** for authentication and authorization.
 | edufy_thumb_db     |   assa   |   assa   |     thumb     |
 | edufy_video_db     |   assa   |   assa   |     video     |
 
-- **Version :** 8.0 
+- **Version :** 8.0
+- File and placement is in [Edufy-infra](https://github.com/EudfyProjects/Edufy-infra)
