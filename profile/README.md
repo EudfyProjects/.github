@@ -1,5 +1,30 @@
 # Edufy Projects
-Multiple projects that handel interactions with Media
+## _"We server you media"_
+---
+## 🎧 Overview
+These are back-end projects that serves to handel media of the type of songs, album, podcasts and videos. With it we want to make media more accessible. 
+Different media types can be worked with alone, one dose not need to have all. Though, if less than all three, the docker and sql file will be required to changed to only include 
+the chosen media services. The front-end will be added later by another team
+
+---
+## 🧩 Related projects
+### Organisation
+- [EdufyProjects](https://github.com/EudfyProjects) - All repositories in one place
+### Connections
+- [Edify-infra](https://github.com/EudfyProjects/Edufy-infra) - Contains `docker-compose.yml` file and `init.db` file
+- [EudfyEurekaServer](https://github.com/Sommar-skog/EdufyEurekaServer) - Server that connects the services instances
+- [Gateway](https://github.com/SaraSnail/EdufyGateway) - Funnels all requests with one base endpoint
+- [EdufyUser](https://github.com/Jamtgard/EdufyUser) - Holds in the Users and can connect to Keycloak to create new ones
+- [EdufyKeycloak](https://github.com/Sommar-skog/EdufyKeycloak) - A pipeline for Azure but had to switch to local container 
+### Media connections
+- [EdufyCreator](https://github.com/Sommar-skog/EdufyCreator) - Holds the Creators for all the media services
+- [EdufyGenre](https://github.com/a-westerberg/EdufyGenre) - Holds all the Genres for the microservices
+- [EdufyThumb](https://github.com/a-westerberg/EdufyThumb) - Records of thumbs up and down on media
+- [EdufyUtility](https://github.com/a-westerberg/EdufyUtility) - No code so far but was created to hold algorithms to extract top 10 for a User
+### Media services
+- [EdufyPod](https://github.com/SaraSnail/EdufyPod) - Service for podcast episodes and seasons
+- [EdufyMusic](https://github.com/Jamtgard/EdufyMusic) - Service for songs and albums
+- [EdufyVideo](https://github.com/Sommar-skog/EdufyVideo) - Service for video clips and video playlists
 
 ---
 ## 🏁 Getting started
@@ -9,6 +34,7 @@ Multiple projects that handel interactions with Media
 - Maven
 - Docker 
 - Postman
+- Keycloak
 ---
 
 ### 🔌 Ports
