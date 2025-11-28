@@ -86,7 +86,7 @@ This service uses **OAuth2** for authentication and authorization.
 | pod_user   | pod_user |  pod   | Pod |
 | music_user   | music_user |  music   | Music |
 | video_user   | video_user |  video   | Video |
-| user   | user |  user   | Media & User |
+| user_user, pod_user, video_user, music_user   | user |  user   | Media & User |
 
 > _Note: Unauthenticated requests will receive a `401 Unauthorized` response._
 
