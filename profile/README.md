@@ -114,3 +114,5 @@ This service uses **OAuth2** for authentication and authorization.
 
 - **Version :** 8.0
 - File and placement is in [Edufy-infra](https://github.com/EudfyProjects/Edufy-infra)
+  
+>_Note: README made by [SaraSnail](https://github.com/SaraSnail)_
